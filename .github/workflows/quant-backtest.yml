@@ -32,7 +32,7 @@ jobs:
         run: python main.py
 
       - name: Upload results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: backtest-results
           path: results/quant_research_report.png
